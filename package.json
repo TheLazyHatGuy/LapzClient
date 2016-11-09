@@ -1,0 +1,26 @@
+{
+  "name": "lapzclient",
+  "productName": "LapzClient",
+  "version": "0.1.0",
+  "description": "Desktop application for Lapzbot",
+  "main": "./main.js",
+  "scripts": {
+      "start": "electron ."
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/GetRektByMe/LapzClient.git"
+  },
+  "bugs": {
+      "url": "https://github.com/GetRektByMe/LapzClient/issues"
+  },
+  "keywords": [
+      "lapzbot",
+      "discord",
+  ],
+  "author": "Byron Vanstien",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.5"
+  }
+}
