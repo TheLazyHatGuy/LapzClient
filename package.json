@@ -5,18 +5,18 @@
   "description": "Desktop application for Lapzbot",
   "main": "./main.js",
   "scripts": {
-      "start": "electron ."
+    "start": "electron ."
   },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/GetRektByMe/LapzClient.git"
+    "type": "git",
+    "url": "https://github.com/GetRektByMe/LapzClient.git"
   },
   "bugs": {
-      "url": "https://github.com/GetRektByMe/LapzClient/issues"
+    "url": "https://github.com/GetRektByMe/LapzClient/issues"
   },
   "keywords": [
-      "lapzbot",
-      "discord",
+    "lapzbot",
+    "discord"
   ],
   "author": "Byron Vanstien",
   "license": "MIT",
