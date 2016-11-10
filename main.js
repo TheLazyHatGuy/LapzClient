@@ -1,15 +1,14 @@
 const {app, BrowserWindow} = require("electron");
 
-let mainApp;
+var win = null;
 
-function createWindow() {
-    let mainApp = new BrowserWindow({
+app.on("ready", function () {
+    win = new BrowserWindow({
         width: 1280,
-        height: 720
+        height: 720,
+        webPreferences: {
+            devTools: true
+        }
     });
-
-    mainApp.webContents.openDevTools();
-    return mainApp;
-}
-
-app.on("ready", createWindow);
+    win.loadURL(`file://${__dirname}/app/static/html/index.html`);
+});

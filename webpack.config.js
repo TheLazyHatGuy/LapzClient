@@ -1,7 +1,7 @@
 const webpack = require("webpack");
 
 module.exports = {
-    context: __dirname + "/app/js",
+    context: __dirname + "/app/src",
     entry: "./entry.js",
 
     node: {
@@ -10,7 +10,7 @@ module.exports = {
 
     output: {
         filename: "bundled.js",
-        path: __dirname + "/app/js"
+        path: __dirname + "/app/static/js"
     },
 
     module: {
@@ -22,7 +22,7 @@ module.exports = {
             },
             {
                 test: /\.scss$/,
-                loader: 'style-loader!css-loader!sass-loader'
+                loader: 'sass-loader!css-loader!style-loader'
             }
         ]
     }
