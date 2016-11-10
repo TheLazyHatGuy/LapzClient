@@ -5,7 +5,8 @@
   "description": "Desktop application for Lapzbot",
   "main": "./main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "webpack ."
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,15 @@
   "author": "Byron Vanstien",
   "license": "MIT",
   "devDependencies": {
-    "electron-prebuilt": "^1.4.5"
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "css-loader": "^0.25.0",
+    "electron": "^1.4.6",
+    "electron-prebuilt": "^1.4.5",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3"
   }
 }
