@@ -8,6 +8,7 @@ function createWindow() {
         height: 720
     });
 
+    mainApp.webContents.openDevTools();
     return mainApp;
 }
 
