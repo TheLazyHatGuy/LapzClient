@@ -52,7 +52,7 @@
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
 
-	import "../scss/main.scss";
+	__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../scss/main.scss\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
 	const React = __webpack_require__(2);
 	const ReactDom = __webpack_require__(35);
