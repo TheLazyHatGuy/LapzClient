@@ -1,7 +1,8 @@
 const webpack = require("webpack");
+const path = require("path");
 
 module.exports = {
-    context: __dirname + "/app/src",
+    context: path.resolve(__dirname + "/app/src"),
     entry: "./entry.js",
 
     node: {
@@ -22,7 +23,7 @@ module.exports = {
             },
             {
                 test: /\.scss$/,
-                loader: 'sass-loader!css-loader!style-loader'
+                loader: 'style-loader!css-loader!sass-loader'
             }
         ]
     }
