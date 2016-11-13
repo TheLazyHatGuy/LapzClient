@@ -3,10 +3,9 @@
   "productName": "LapzClient",
   "version": "0.1.0",
   "description": "Desktop application for Lapzbot",
-  "main": "./main.js",
+  "main": "app/src/entry.js",
   "scripts": {
-    "start": "electron .",
-    "build": "webpack ."
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -25,13 +24,10 @@
     "babel-core": "^6.18.2",
     "babel-loader": "^6.2.7",
     "babel-plugin-transform-react-jsx": "^6.8.0",
-    "css-loader": "^0.25.0",
     "electron": "^1.4.6",
-    "node-sass": "^3.11.2",
+    "electron-compile": "^4.0.2",
+    "electron-compilers": "^4.0.5",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "sass-loader": "^4.0.2",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.13.3"
+    "react-dom": "^15.3.2"
   }
 }

@@ -1,4 +1,4 @@
-require("..\\static\\scss\\main.scss");
+const path = require("path");
+const appRoot = path.join(__dirname, "../..");
 
-const React = require("react");
-const ReactDom = require("react-dom");
+require("electron-compile").init(appRoot, "../../main")
