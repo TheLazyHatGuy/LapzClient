@@ -1,11 +1,9 @@
 language: node_js
 node_js:
   - "6.5.0"
-addons:
-  apt:
-    packages:
-      - xvfb
+sudo: required
 before_script:
+  - sudo apt-get install xvfb
   - npm install -g tslint typescript tsd
   - npm install
   - tsd install
