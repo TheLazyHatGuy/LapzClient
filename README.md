@@ -13,7 +13,7 @@ Open a terminal and run the following commands to install the necessary dependen
 npm install babel-plugin-transform-react-jsx react-dom style-loader css-loader node-sass sass-loader webpack react babel-loader babel-core babel-preset-es2015
 npm install electron -g
 ```
-It is recommened that after you install the dependencies, you should upgrade to the latest version of [NodeJS](https://nodejs.org)
+It is recommended that after you install the dependencies, you should upgrade to the latest version of [NodeJS](https://nodejs.org)
 
 To build the LapzBot client use this commands
 ```
