@@ -4,4 +4,4 @@ node_js:
 before_script:
   - npm install babel-plugin-transform-react-jsx react-dom style-loader css-loader node-sass sass-loader react babel-loader babel-core babel-preset-es2015
   - npm install electron -g
-script: npm run buld && npm run start
+script: npm run build
