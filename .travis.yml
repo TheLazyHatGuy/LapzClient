@@ -9,8 +9,9 @@ before_script:
   - npm install -g tslint typescript tsd
   - npm install
   - tsd install
-  - export DISPLAY=':99.0'
-  - Xvfb :99 -extension RANDR -screen 0 1024x768x24 > /dev/null 2>&1 &
+#  - export DISPLAY=':99.0'
+  - xvfb -screen 0 1024x768x24
+#  - Xvfb :99 -extension RANDR -screen 0 1024x768x24 > /dev/null 2>&1 &
   - npm install webpack babel-plugin-transform-react-jsx react-dom style-loader css-loader node-sass sass-loader react babel-loader babel-core babel-preset-es2015
   - npm install electron -g --save-dev
   - npm install --save-dev electron-compilers
