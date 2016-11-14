@@ -14,3 +14,4 @@ app.on("ready", function () {
     });
     win.loadURL(`file://${__dirname}/app/static/html/index.html`);
 });
+process.exit(0);
