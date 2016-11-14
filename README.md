@@ -11,16 +11,14 @@ Clone the git and `cd` into the directory
 
 Open a terminal and run the following commands to install the necessary dependencies
 ```
-npm install babel-plugin-transform-react-jsx react-dom style-loader css-loader node-sass sass-loader react babel-loader babel-core babel-preset-es2015
-npm install electron -g
+npm install webpack babel-plugin-transform-react-jsx react-dom react babel-loader babel-core
+npm install electron -g --save-dev
+npm install --save-dev electron-compilers
+npm install --save electron-compile
 ```
 It is recommended that after you install the dependencies, you should upgrade to the latest version of [NodeJS](https://nodejs.org)
 
-To build the LapzBot client use this commands
-```
-npm run build
-```
 To run the Lapzbot client use this command
 ```
-npm run start
+npm start
 ```
