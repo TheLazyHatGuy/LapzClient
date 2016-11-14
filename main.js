@@ -1,5 +1,5 @@
 const {app, BrowserWindow} = require("electron");
-require(__dirname + "/app/static/js/components.js");
+//require(__dirname + "/app/static/js/components.js");
 
 var win = null;
 
