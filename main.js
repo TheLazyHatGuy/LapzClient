@@ -15,4 +15,3 @@ app.on("ready", function () {
     win.loadURL(`file://${__dirname}/app/static/html/index.html`);
     win.webContents.openDevTools();
 });
-process.exit(0);
