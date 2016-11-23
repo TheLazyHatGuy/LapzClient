@@ -9,9 +9,9 @@ before_script:
   - tsd install
   - export DISPLAY=':99.0'
   - Xvfb :99 -extension RANDR -screen 0 1024x768x24 > /dev/null 2>&1 &
-  - npm install webpack babel-plugin-transform-react-jsx react-dom react babel-loader babel-core
+  - npm install babel-plugin-transform-react-jsx react-dom react babel-loader babel-core
   - npm install electron -g --save-dev
   - npm install --save-dev electron-compilers
   - npm install --save electron-compile
 script:
-  - npm start
+  - npm run start

@@ -5,9 +5,15 @@
  *
  */
 
+@import "client/mixins.less";
 @import "client/variables.less";
-@import "fa/font-awesome.less";
 
-body{
+* {
+    // Sets default font for everything on the client
+    font-family: @roboto;
+}
+
+body {
     background-color: @background;
+    .setMargin;
 }
